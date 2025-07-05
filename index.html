@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Moneeba Sajid | Data Entry Expert</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <!-- Top Navigation -->
+<header>
+  <div class="topnav">
+   <div class="logo">
+  <!-- <a href="#hero" class="profile-container"> -->
+    <!-- <img src="images/profile.png" alt="Moneeba Sajid"> -->
+    <a href="#!" class="profile-container" onclick="openModal()">
+  <!-- <img src="images/profile.png" alt="Moneeba Sajid" /> -->
+    <img src="images/profile.jpg" alt="Moneeba Sajid" />
+
+</a>
+
+  </a>
+  <!-- <span class="name">Moneeba</span> -->
+</div>
+
+
+
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Hero with Carousel -->
+  <section id="hero" class="hero-carousel">
+    <div class="carousel-container">
+      <div class="carousel-slide active" style="background-image: url('images/slide1.jpg')"></div>
+      <div class="carousel-slide" style="background-image: url('images/slide2.jpg')"></div>
+      <div class="carousel-slide" style="background-image: url('images/slide3.jpg')"></div>
+      <div class="carousel-slide" style="background-image: url('images/slide4.jpg')"></div>
+    </div>
+    <div class="carousel-text">
+      <h1>Moneeba Sajid</h1>
+      <p>Professional Data Entry & Typing Expert</p>
+    </div>
+  </section>
+
+  <!-- Side Panel -->
+  <aside class="side-panel">
+    <a href="#hero"><i class="fas fa-home"></i></a>
+    <a href="#about"><i class="fas fa-user"></i></a>
+    <a href="#skills"><i class="fas fa-keyboard"></i></a>
+    <a href="#services"><i class="fas fa-briefcase"></i></a>
+    <a href="#portfolio"><i class="fas fa-image"></i></a>
+    <a href="#contact"><i class="fas fa-envelope"></i></a>
+  </aside>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+  <h2>About Me</h2>
+  <p>
+    I’m Moneeba, a passionate data entry operator with fast typing skills, professional formatting knowledge, and a keen eye for detail.
+  </p>
+  <p>
+    A <strong>PEEF Scholarship holder</strong> pursuing a Bachelor's degree in <strong>Software Engineering</strong> at <strong>GC University Faisalabad</strong> (CGPA 3.46), with a strong academic background in computer science (ICS). 
+  </p>
+  <p>
+    I have cultivated a unique blend of skills across <strong>web development</strong>, <strong>graphic design</strong>, <strong>cybersecurity</strong> (CEH certified), and fast, professional typing in multiple languages — including <strong>English, Urdu, and Arabic</strong>.
+  </p>
+  <p>
+    A highly motivated self-learner who thrives in dynamic environments and is eager to apply and expand her technical and creative expertise.
+  </p>
+</section>
+
+
+  <!-- Skills Section -->
+  <section id="skills" class="section grid">
+    <h2>My Skills</h2>
+    <div class="grid-box">
+      <div>Typing Speed (70+ WPM)</div>
+      <div>MS Excel / Word</div>
+      <div>PDF Conversion</div>
+      <div>Document Formatting</div>
+      <div>File Sorting</div>
+      <div>Canva / Online Docs</div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section grid">
+    <h2>Services</h2>
+    <div class="grid-box">
+      <div>Data Entry</div>
+      <div>Typing Work</div>
+      <div>Copy-Paste Tasks</div>
+      <div>PDF Editing</div>
+      <div>Image-to-Text</div>
+      <div>Email Scraping</div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section">
+    <h2>My Work Samples</h2>
+    <div class="portfolio-gallery">
+      <div class="img-wrap" style="background-color: #1a1a1a;">
+        <img src="images/portfolio1.jpg" alt="Portfolio 1">
+      </div>
+      <div class="img-wrap" style="background-color: #141414;">
+        <img src="images/portfolio2.jpg" alt="Portfolio 2">
+      </div>
+      <div class="img-wrap" style="background-color: #1f1f1f;">
+        <img src="images/portfolio3.jpg" alt="Portfolio 3">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Moneeba Sajid | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <div id="imageModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImage" />
+</div>
+
+
+</body>
+</html>
