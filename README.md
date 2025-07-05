@@ -42,8 +42,7 @@ _(Replace this link with your actual GitHub Pages URL)_
 
 ---
 
-## 📁 Folder Structure(here you may add images as files instead in a folder as i did here).
-
+## 📁 Folder Structure
 ```plaintext
 moneeba-portfolio/
 ├── index.html
