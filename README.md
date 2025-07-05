@@ -37,7 +37,7 @@ This website showcases my work, skills, and services in a sleek, black-and-gold 
 
 ## 🌐 Live Website
 
-👉 [Click here to view my live portfolio](https://yourusername.github.io/moneeba-portfolio)  
+👉 [Click here to view my live portfolio](https://moneebasajid.github.io/moneeba_portfolio/)  
 _(Replace this link with your actual GitHub Pages URL)_
 
 ---
